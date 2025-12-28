@@ -1,9 +1,9 @@
 {
-    "name": "npm-rm",
+    "name": "rmnm",
     "version": "0.0.4",
-    "description": "Find and remove node_modules recursively",
+    "description": "Quickly find and remove node_modules recursively to free up disk space",
     "bin": {
-        "npmrm": "bin/npmrm.js"
+        "rmnm": "bin/rmnm.js"
     },
     "files": [
         "bin",
