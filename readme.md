@@ -1,4 +1,4 @@
-# rmnm
+# rmvnm
 
 A blazing-fast CLI tool to **find, analyze, and purge `node_modules` directories** across your filesystem.
 
@@ -9,13 +9,13 @@ Reclaim gigabytes of disk space from old projects, monorepos, and forgotten dev 
 ## Installation
 
 ```bash
-npm install -g rmnm
+npm install -g rmvnm
 ```
 
 Or run directly with npx:
 
 ```bash
-npx rmnm -p .
+npx rmvnm -p .
 ```
 
 ---
@@ -35,7 +35,7 @@ npx rmnm -p .
 ## Usage
 
 ```bash
-rmnm -p <path>
+rmvnm -p <path>
 ```
 
 ### Examples
@@ -43,31 +43,31 @@ rmnm -p <path>
 Scan current directory:
 
 ```bash
-rmnm -p .
+rmvnm -p .
 ```
 
 Scan a specific path:
 
 ```bash
-rmnm -p ~/projects
+rmvnm -p ~/projects
 ```
 
 Skip confirmation prompt:
 
 ```bash
-rmnm -p . -y
+rmvnm -p . -y
 ```
 
 Limit traversal depth:
 
 ```bash
-rmnm -p . --max-depth 3
+rmvnm -p . --max-depth 3
 ```
 
 Output results as JSON:
 
 ```bash
-rmnm -p . --json
+rmvnm -p . --json
 ```
 
 ---
