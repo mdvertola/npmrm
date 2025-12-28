@@ -1,0 +1,21 @@
+{
+    "name": "@npmrm",
+    "version": "0.0.1",
+    "description": "Find and remove node_modules recursively",
+    "bin": {
+        "npmrm": "bin/npmrm.js"
+    },
+    "files": [
+        "bin",
+        "readme.md"
+    ],
+    "type": "module",
+    "license": "MIT",
+    "dependencies": {
+        "chalk": "^5.6.2",
+        "cli-progress": "^3.12.0",
+        "cli-table3": "^0.6.5",
+        "commander": "^14.0.2",
+        "ora": "^9.0.0"
+    }
+}
