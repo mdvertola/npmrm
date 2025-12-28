@@ -1,6 +1,6 @@
 {
     "name": "npm-rm",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "description": "Find and remove node_modules recursively",
     "bin": {
         "npmrm": "bin/npmrm.js"
