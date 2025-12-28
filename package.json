@@ -1,6 +1,6 @@
 {
     "name": "rmnm",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "Quickly find and remove node_modules recursively to free up disk space",
     "bin": {
         "rmnm": "bin/rmnm.js"
