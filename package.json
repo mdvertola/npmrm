@@ -1,5 +1,5 @@
 {
-    "name": "@npmrm",
+    "name": "npm-rm",
     "version": "0.0.1",
     "description": "Find and remove node_modules recursively",
     "bin": {
